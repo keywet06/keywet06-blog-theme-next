@@ -294,8 +294,8 @@ related_posts:
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
   enable: true
-  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source
-  #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name # Link for fork & edit
+  url: https://github.com/keywet06/keywet06-blog-hexo/blob/master/source/ # Link for view source
+  #url: https://github.com/keywet06/keywet06-blog-hexo/edit/master/source/ # Link for fork & edit
 
 # Show previous post and next post in post footer if exists
 # Available values: left | right | false
@@ -355,14 +355,14 @@ codeblock:
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
   # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: normal
+  highlight_theme: night
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result.
-    show_result: false
+    show_result: true
     # Available values: default | flat | mac
-    style:
+    style: default
 
 back2top:
   enable: true
